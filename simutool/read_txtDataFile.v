@@ -118,10 +118,22 @@ module read_txtDataFile_HoldOut #(
 	output reg [BWID14-1:0] oData14=0,
 	output reg [BWID15-1:0] oData15=0
 );
-	wire [BWID0 -1:0] tmp_oData0, tmp_oData1, tmp_oData2, tmp_oData3  ;
-    wire [BWID4 -1:0] tmp_oData4, tmp_oData5, tmp_oData6, tmp_oData7  ;
-    wire [BWID8 -1:0] tmp_oData8, tmp_oData9, tmp_oData10,tmp_oData11 ;
-    wire [BWID12-1:0] tmp_oData12,tmp_oData13,tmp_oData14,tmp_oData15 ;
+    wire [BWID0 -1:0] tmp_oData0;
+    wire [BWID1 -1:0] tmp_oData1;
+    wire [BWID2 -1:0] tmp_oData2;
+    wire [BWID3 -1:0] tmp_oData3;
+    wire [BWID4 -1:0] tmp_oData4;
+    wire [BWID5 -1:0] tmp_oData5;
+    wire [BWID6 -1:0] tmp_oData6;
+    wire [BWID7 -1:0] tmp_oData7;
+    wire [BWID8 -1:0] tmp_oData8;
+    wire [BWID9 -1:0] tmp_oData9;
+    wire [BWID10-1:0] tmp_oData10;
+    wire [BWID11-1:0] tmp_oData11;
+    wire [BWID12-1:0] tmp_oData12;
+    wire [BWID13-1:0] tmp_oData13;
+    wire [BWID14-1:0] tmp_oData14;
+    wire [BWID15-1:0] tmp_oData15;
 
     read_txtDataFile #(
 	   .DATAFILE ( DATAFILE ),
